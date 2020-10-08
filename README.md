@@ -13,13 +13,14 @@ Automation Scenarios:
 8. Application access direct to confirmation link
 
 
-Could not complete all scenarios. 
-Can provide Test data from excel
-More scenarios can be written
-
-
 API
 -------------
 SpaceX.postman_collection is attached in the project for API test scenarios.
+
+Comments:
+-Could not complete all scenarios. 
+-Can provide Test data from excel
+-More scenarios can be written
+
 
 
