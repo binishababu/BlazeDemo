@@ -1,0 +1,66 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SpaceX",
+		"_postman_id": "6766817c-8922-dab7-9f9b-3e5550bd215b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SpaceX-GET-Positive Valid Case",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Verify with DELETE or any other method - negative",
+			"request": {
+				"url": "https://api.spacexdata.com/v4/launches/latest",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "VerifyPreviousVersion",
+			"request": {
+				"url": "https://api.spacexdata.com/v3/launches/latest",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "WithoutVersion",
+			"request": {
+				"url": "https://api.spacexdata.com/launches/latest",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Verify response without latest locator",
+			"request": {
+				"url": "https://api.spacexdata.com/v4/launches",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
