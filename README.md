@@ -3,14 +3,19 @@
 # blazedemo
 Automation Scenarios:
 ----------------------------------
-1. Able to lauch url and search flight-> Book flight with all details
-2. Veriify login functionality
-3. Verify Register functionality.
-4. Verify user not able to book without details?
-5. Price shown across pages for a flight travel are same.
-6. Home ->Forgot password
-6. Check out Destination of the week link
-7. Application access direct to confirmation link
+1. Verify flight booking functionality with valid details
+2. Verify user is not able to book flight without providing valid details.
+3. Verify price and flight details acroos the flow.
+4. Veriify login functionality
+5. Verify Register functionality.
+6. Verify user able to reset password via Forgot Password link
+7. Check out Destination of the week link
+8. Application access direct to confirmation link
+
+
+Could not complete all scenarios. 
+Can provide Test data from excel
+More scenarios can be written
 
 
 API
